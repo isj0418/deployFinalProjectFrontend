@@ -21,6 +21,7 @@ import CommuDetail from "./pages/commuDetail";
 import CreateBoard from "./pages/createBoard";
 import UpdateBoard from "./pages/updateBoard";
 
+
 const Router = createBrowserRouter([
   {
     path: "/",

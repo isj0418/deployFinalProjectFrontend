@@ -28,8 +28,8 @@ const Header = () => {
     { label: 'Home', to: '/' },
     { label: 'Community', to: '/Community' },
     { label: 'Match', to: '/Match' },
-    { label: 'News', to: '/News' },
-    { label: 'Team', to: '/Team' }
+    { label: 'News', to: '/articles' },
+    { label: 'Team', to: '/team' }
   ];
 
   return (
