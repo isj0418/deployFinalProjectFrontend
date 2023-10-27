@@ -23,6 +23,7 @@ import UpdateBoard from "./pages/updateBoard";
 import Team from "./pages/team"
 import KLeague from "./pages/kleague";
 
+
 const Router = createBrowserRouter([
   {
     path: "/",
