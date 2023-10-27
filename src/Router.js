@@ -20,6 +20,8 @@ import MatchDetail from "./pages/matchDetail";
 import CommuDetail from "./pages/commuDetail";
 import CreateBoard from "./pages/createBoard";
 import UpdateBoard from "./pages/updateBoard";
+import Team from "./pages/team"
+import KLeague from "./pages/kleague";
 
 
 const Router = createBrowserRouter([
@@ -68,12 +70,8 @@ const Router = createBrowserRouter([
         element : <KBO/> ,
       },
       {
-        path: "/kLeague/player",
-        element: <KLeauge_playerView />,
-      },
-      {
-        path: "/kLeague/team",
-        element: <KLeagueTeamView />,
+        path: '/KLeague',
+        element : <KLeague/> ,
       },
       {
         path: "/KLeague/current",
@@ -102,6 +100,10 @@ const Router = createBrowserRouter([
       {
         path: '/updateBoard',
         element: <UpdateBoard/>
+      },
+      {
+        path: '/Team',
+        element: <Team />
       },
     ],
   },
