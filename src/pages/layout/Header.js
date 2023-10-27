@@ -28,7 +28,7 @@ const Header = () => {
     { label: 'Home', to: '/' },
     { label: 'Community', to: '/Community' },
     { label: 'Match', to: '/Match' },
-    { label: 'News', to: '/News' },
+    { label: 'News', to: '/articles' },
     { label: 'Team', to: '/Team' }
   ];
 
@@ -65,7 +65,7 @@ const Header = () => {
 };
 
 const HeaderContainer = styled.header`
-  position: fixed;
+
   background-color: #333333;
   color: white;
   padding: 10px 20px;
