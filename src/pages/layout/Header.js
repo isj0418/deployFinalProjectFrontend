@@ -29,7 +29,6 @@ const Header = () => {
     { label: 'Community', to: '/Community' },
     { label: 'Match', to: '/Match' },
     { label: 'News', to: '/articles' },
-    { label: 'Team', to: '/Team' }
   ];
 
   return (

@@ -27,7 +27,6 @@ function BoardList(props) {
 
     return (
         <>
-            <h3>자유게시판</h3>
             {displayedData.length >= 0 ? (
                 <table>
                     <thead>
@@ -51,8 +50,10 @@ function BoardList(props) {
                             <td>{(board.hit)/2}</td>
                         </tr>
                     ))}
+
                     </tbody>
                 </table>
+
             ) : (
                 <p>게시글이 존재하지 않습니다</p>
             )}

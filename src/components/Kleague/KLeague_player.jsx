@@ -258,7 +258,7 @@ export default function KLeaguePlayer() {
           </div>
           {playerDetail && (
               <div style={{ display: "flex" }}>
-                <div style={{ width: "70%", marginLeft: "10px" }}>
+                <div style={{ width: "50%", marginLeft: "10px" }}>
                   <div
                       style={{
                         ...playerDetailList,

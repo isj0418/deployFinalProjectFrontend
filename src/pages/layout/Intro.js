@@ -32,6 +32,8 @@ const IntroInner = styled.div`
     white-space: nowrap;
     text-indent: -0.5vw;
     letter-spacing: -0.3vw;
+    color: white;
+    
 
     @media (max-width: 320px) {
       display: none;
@@ -59,6 +61,7 @@ const IntroInner = styled.div`
       z-index: 100;
       transition: all 0.3s;
       cursor: all-scroll;
+      color: white;
 
       @media (max-width: 800px) {
         font-size: 24px;

@@ -5,8 +5,8 @@ import Footer from './Footer';
 
 const Container = styled.div`
   min-width: 100%;
-  min-height: 1250px;
-  background-color: white;
+  min-height: 100%;
+  background-color: #202027;
   display: flex;
   flex-direction: column;
   align-items: center; /* 또는 다른 정렬 방법을 선택하세요 */

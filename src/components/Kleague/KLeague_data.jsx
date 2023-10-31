@@ -24,7 +24,7 @@ export default function KLeague_Data() {
             <div className="kbo-data-container">
                 {" "}
                 {/* 이 컨테이너를 스타일링하기 위해 CSS 클래스를 적용합니다 */}
-                <h2>KLeague DATA</h2>git
+                <h2>KLeague DATA</h2>
                 <div>
                     <button onClick={toggleTeamData}>KLeague Team</button>
                     <button onClick={togglePlayerList}>KLeague Player</button>
