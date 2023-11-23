@@ -36,11 +36,11 @@ export default function KBOLogoPath() {
                     </Link>
                 </li>
                 <li>
-                    <Link to="/KBO" state={{ teamFilter : "KT" }}>
+                    <Link to="/KBO" state={{ teamFilter : "NC" }}>
                         <button>
                             <img
                                 src="//lgcxydabfbch3774324.cdn.ntruss.com/KBO_IMAGE/KBOHome/resources/images/emblem/regular/2022/NC.png"
-                                alt="KT Logo"
+                                alt="NC Logo"
                             />
                         </button>
                     </Link>
